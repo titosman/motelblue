@@ -1,25 +1,25 @@
 body {
   background-color: #0d263a;
 }
-.nav1 {
+nav {
   padding: 1em;
   font-family: Verdana, Geneva, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.nav1 ul {
+nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
   background: #0d263a;
 }
-
-.nav1 li a {
+nav li a {
   text-align: center;
   color: white;
   display: block;
   text-decoration: none;
   padding: 0.5em 1em;
+  text-decoration: none;
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
   background-repeat: no-repeat;
@@ -28,10 +28,19 @@ body {
   background-position-x: center;
 }
 
-.nav1 li a:hover,
-.nav1 li a:focus {
+nav li a:hover,
+nav li a:focus {
   background-size: 100% 2px;
   background-position-x: center;
+}
+
+img {
+  width: 80%;
+  height: auto;
+}
+
+.main {
+  background-image: url(/img/01.png)
 }
 
 @media screen and (min-width: 600px) {
@@ -45,26 +54,7 @@ body {
     text-align: center;
     margin-top: 85px;
   }
-  main img {
-    position: absolute;
-    left: 0px;
-    z-index: -1;
-    inline-size: 100%;
-  }
-  main div h1 {
-    color: rgb(0, 0, 0);
-    
-    text-align: center;
-    margin-top: 0px;
-    font-size: 85px;
-  }
-
-  main div h3 {
-    color: rgb(0, 0, 0);
-    
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 30px;
+  h1 {
+    background-image: ;
   }
 }
